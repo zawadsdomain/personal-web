@@ -1,4 +1,23 @@
-.frontpage-container {
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0 100px; /* Padding applied globally */
+    box-sizing: border-box;
+  }
+  
+  .bio-container {
+    display: block;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .bio-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .frontpage-container {
     display: flex;
     justify-content: center;
     align-items: center;
