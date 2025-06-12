@@ -5,29 +5,34 @@ body {
     box-sizing: border-box;
   }
   
-  .bio-container {
+.bio-container {
     display: block;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
-  .bio-content {
+.bio-content {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
   }
   
-  .frontpage-container {
+.frontpage-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 150px;
 
-}
+  }
 
 .frontpage-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.AreasContainter {
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
