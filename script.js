@@ -1,5 +1,5 @@
 // Temporary function --- add a lightbulb switch
 
 function pullMe() {
-    alert("Pull me");
+    console.log("pulled");
 }

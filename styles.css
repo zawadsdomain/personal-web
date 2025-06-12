@@ -9,6 +9,7 @@ body {
     display: block;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
   }
   
 .bio-content {
@@ -32,7 +33,68 @@ body {
     justify-content: center;
 }
 
-.AreasContainter {
-    display: block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.areas-container {
+    background: linear-gradient(to right, #e6f0ff, #f5f0ff);
+    padding: 40px;
+    border-radius: 16px;
+    margin: 40px auto;
+}
+
+.interest-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* more even spacing */
+  gap: 20px; /* tweak as needed */
+  margin-top: 20px;
+}
+
+.interest-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #3971f4;
+  color: white;
+  border-radius: 50%; /* gives us that circular look */ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 auto 10px auto; /* centers the cirle and adds spacing */ 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.Interest {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 200px;
+  max-width: 225px;
+  transition: transform 0.2s ease;
+}
+
+.Interest:hover {
+  transform: translate(-5px);
+}
+
+.Areas h2 {
+  text-align: center;
+  color: #3971f4;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.Areas {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.bio-container h1 {
+  text-align: center;
+  color: #3971f4;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
