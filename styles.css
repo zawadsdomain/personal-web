@@ -10,12 +10,15 @@ body {
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
+    
+
   }
   
 .bio-content {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    padding: 40px 0;
   }
   
 .frontpage-container {
@@ -85,6 +88,7 @@ body {
   color: #3971f4;
   font-weight: 700;
   margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .Areas {
@@ -97,4 +101,10 @@ body {
   color: #3971f4;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+.bottom-bio p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
