@@ -152,9 +152,10 @@ h1 {
 }
 
 .projects-content {
-  max-width: 800px;
+  max-width: 1200px; /* Increased from 800px */
   margin: 0 auto;
   text-align: center;
+  padding: 0 20px; /* Optional, to keep side padding consistent */
 }
 
 .projects-content h1 {
@@ -164,11 +165,11 @@ h1 {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
-  gap: 60px;
+  grid-template-columns: repeat(2, 1fr); /* two columns */
+  column-gap: 150px;   /* more space between columns */
+  row-gap: 50px;      /* vertical spacing between rows */
   text-align: left;
 }
-
 .project {
   background-color: #f9f9f9;
   padding: 30px 35px;
@@ -176,6 +177,7 @@ h1 {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
   min-height: 200px;
+  min-width: 450px;
 }
 
 .project:hover {
